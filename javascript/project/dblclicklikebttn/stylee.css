@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightseagreen;
+}
+
+#cantainer{
+    height:450px;
+    width: 300px;
+    background-color: #fff;
+    border-radius: 12px;
+    position: relative;
+    overflow: hidden;
+
+}
+
+#cantainer img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+#cantainer i{
+    color: #fff;
+    font-size: 75px; 
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: scale(0); 
+    opacity: 0.8;
+    transition: all ease 0.4s;
+  }
+   
